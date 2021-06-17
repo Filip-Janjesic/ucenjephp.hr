@@ -36,5 +36,30 @@ $j = --$i - --$j; // $i=-1, $j=-1
 
 echo $j + $i; //-2
 
-// DOmaća zadaća: Kreirati 7 scenarija napamet iz glase (napisati)
+// D0maća zadaća: Kreirati 7 scenarija napamet iz glase (napisati)
 // prije izvođenja na papiru doći do rješenja i nakon izvođenja provjeriti točnost
+
+
+
+// modulo
+
+// ostatak nakon cjelobrojnog djeljenja
+
+$t = 5;
+
+$ostatakNakonCjelobrojnogDjeljenja = 5 % 2; //1
+
+// 5 / 2 cjelobrojno = 2
+// 2 * 2 = 4
+// 5 - 4 = 1
+
+$broj = isset($_GET['broj']) ? $_GET['broj'] : 2;
+
+echo 'primljeni broj ', $broj, ' je ';
+if($broj % 2 === 0 ){
+    echo 'paran';
+}else{
+    echo 'ne paran';
+}
+
+

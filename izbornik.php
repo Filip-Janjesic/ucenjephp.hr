@@ -7,8 +7,6 @@
       <li><a href="suzivot.php">Suživot PHP i HTML</a></li>
       <li><a href="varijable.php">Varijable</a></li>
       <li><a href="getparametri.php">GET parametri</a></li>
-      <li><a href="zadatak4.php?naslov=2&tekst=Osijek">Zadatak 4</a></li>
-      <li><a href="zadatak5.php?broj=2&ime=4&t=9">Zadatak 5</a></li>
       <li>
         <a href="getparametri.php?ime=Edunova&godina=2021&broj=7">
           GET parametri s parametrima
@@ -26,10 +24,11 @@
     </ul>
   </li>
   <li>
-    <a href="#">Item 3</a>
+    <a href="#">Nizovi</a>
     <ul class="vertical menu">
-      <li><a href="#">Item 3A</a></li>
-      <li><a href="#">Item 3B</a></li>
+      <li><a  target="_blank" href="indeksninizovi.php">Indeksni nizovi</a></li>
+      <li><a  target="_blank" href="asocijativninizovi.php?t=1&k=2">Asocijativni nizovi</a></li>
+      <li><a  target="_blank" href="kalkulator.php">Kalkulator</a></li>
     </ul>
   </li>
 </ul>
