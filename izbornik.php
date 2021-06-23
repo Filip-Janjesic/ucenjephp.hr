@@ -40,3 +40,11 @@
   </ul>
   </li>
 </ul>
+<li>
+    <a href="#">Funkcije</a>
+    <ul class="vertical menu">
+      <li><a  target="_blank" href="cestokoristenefunkcije.php">Često korištene funkcije</a></li>
+      <li><a  target="_blank" href="vlastitefunkcije.php">Vlastite funkcije</a></li>
+    </ul>
+  </li>
+</ul>
