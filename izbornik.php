@@ -31,4 +31,12 @@
       <li><a  target="_blank" href="kalkulator.php">Kalkulator</a></li>
     </ul>
   </li>
+  <li>
+    <a href="#">Petlje</a>
+    <ul class="vertical menu">
+      <li><a  target="_blank" href="forpetlja.php">For petlja</a></li>
+      <li><a  target="_blank" href="whilepetlja.php">While petlja</a></li>
+      <li><a  target="_blank" href="dowhilepetlja.php">Do while petlja</a></li>
+  </ul>
+  </li>
 </ul>

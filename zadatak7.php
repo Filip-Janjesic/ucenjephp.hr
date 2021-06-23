@@ -1,10 +1,10 @@
 <?php
 
-foreach($_GET as $value)
-{
-$sum + = (int) $value;
-// $sum = $sum + (int) $value;
-echo $sum, "<br />"; // checking if im doin it right
-}
+// program ispisuje zbroj svih primljenih get parametara
+// bez obzira na naziv ključa
 
-print("<br />The sum is $sum"); // this is the solution
+// primjer 1: zadatak7.php?t=3&k=6
+// 9
+
+// primjer 1: zadatak7.php?ime=1&prezime=-1
+// 0
