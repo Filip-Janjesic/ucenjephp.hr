@@ -45,6 +45,7 @@
     <ul class="vertical menu">
       <li><a  target="_blank" href="cestokoristenefunkcije.php">Često korištene funkcije</a></li>
       <li><a  target="_blank" href="vlastitefunkcije.php">Vlastite funkcije</a></li>
+      <li><a  target="_blank" href="zadatak13.php">Zadatak13</a></li>
     </ul>
   </li>
 </ul>
