@@ -1,5 +1,4 @@
 <?php
-function primabrojeve($broj1,$broj2)
-{
-    $return
-}
+
+// kreirajte funkciju zbroj koja prima dva broja
+// funkcija vraća zbroj primljenih brojeva

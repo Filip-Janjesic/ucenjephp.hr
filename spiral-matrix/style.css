@@ -1,0 +1,272 @@
+/* 
+    Author: tnebes
+    18 June 2021
+    spiral matrix exercise
+*/
+
+*
+{
+    color: rgb(0, 255, 0);
+    font-family: monospace;
+}
+
+html, body
+{
+    padding: 1%;
+    background-color: rgb(0, 17, 0);
+}
+
+#titleTitle
+{
+    color: green;
+    font-weight: 900;
+}
+
+#explanation
+{
+    color: green;
+    font-size: large;
+}
+
+input
+{
+    resize: horizontal;
+    max-width: 100px;
+    /* background-color: rgb(0, 26, 0); */
+    border-color: green;
+}
+
+input:focus
+{
+    border-color: rgb(0, 255, 0);
+}
+
+button
+{
+    margin-top: 2em;
+    width:100px;
+    height:50px;
+    border-color: green;
+    background-color: rgb(0, 0, 0);
+}
+
+button:hover
+{
+    background-color: rgb(0, 64, 0);
+    border-color: rgb(0, 255, 0);
+}
+
+input
+{
+    background-color: rgb(0, 0, 0);
+}
+
+input:active
+{
+    width: auto;
+}
+
+input:focus
+{
+    max-width: 100px;
+}
+
+.main
+{
+    margin-top: 10vh;
+    display: flex;
+    overflow: visible;
+}
+
+.input
+{
+    padding: 2vmin;
+    padding-top: 0;
+    max-width: fit-content;
+    border: 1px solid green;
+}
+
+.output
+{
+    margin-left: 5vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    min-height: 200px;
+    border: 1px solid green;
+    width: 100%;
+    overflow: visible;
+    resize: vertical;
+}
+
+.matrixContainer
+{
+    /* margin-top: -15%; */
+    position:relative;
+    padding: 10px;
+    display:flex;
+    flex:initial;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    overflow: visible;
+    font-weight: 900;
+}
+
+.row
+{
+    width:auto;
+    display:flex;
+    flex:auto;
+    flex-direction: row;
+}
+
+.arrow
+{
+    position: absolute;
+    color: rgb(0, 206, 0);
+    font-size: 250%;
+    z-index: 100;
+}
+
+.arrowUp
+{
+    transform: translate(16px, -36px);
+}
+
+.arrowLeft
+{
+    transform: translate(48px, -2px);
+}
+
+.arrowDown
+{
+    transform: translate(16px, 28px);
+}
+
+.arrowRight
+{
+    transform: translate(-16px, -2px);
+}
+
+.matrixContent
+{
+    border: 1px solid green;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex: auto;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    color: rgb(0, 255, 0);
+}
+
+.matrixContent:hover
+{
+    background-color: rgb(0, 66, 0);
+    border-color: rgb(0, 255, 0);
+    font-size: x-large;
+}
+
+.matrixContent:hover .arrow
+{
+    color: rgb(0, 255, 0);
+    font-weight: bold;
+    font-size: 200%;
+}
+
+@media screen and (max-width: 1024px)
+{
+    .main
+    {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        margin-top: 0;
+    }
+    .input
+    {
+        max-width: auto;
+    }
+    .output
+    {
+        max-width: auto;
+        min-width: auto;
+        margin-left: 0;
+        margin-top: 1vh;
+    }
+    .matrixContainer
+    {
+        margin-top: 6vh;
+        margin-bottom: 6vh;
+    }
+    #explanation
+    {
+        font-size: small;
+        border: 1px solid green;
+        padding: 1%;
+    }
+    #titleTitle
+    {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 668px)
+{
+    .main
+    {
+        margin-top: 0;
+    }
+    .input
+    {
+        border: 0px solid black;
+    }
+    .output
+    {
+        margin-top: 0;
+        border: 0px solid black;
+    }
+    #explanation
+    {
+        text-align: justify;
+    }
+    .matrixContainer
+    {
+        margin-top: 0;
+    }
+    .matrixContent
+    {
+        width: 25px;
+        height: 25px;
+        font-size: small;
+    }
+    .arrow
+    {
+        font-size: normal;
+    }
+    .arrowUp
+    {
+        transform: translate(2px, -20px);
+    }
+
+    .arrowLeft
+    {
+        transform: translate(25px, -2px);
+    }
+
+    .arrowDown
+    {
+        transform: translate(16px, 28px);
+    }
+
+    .arrowRight
+    {
+        transform: translate(-15px, -2px);
+    }
+}

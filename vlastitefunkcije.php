@@ -1,80 +1,99 @@
 <?php
 
-function posao ()
- {
+// da bi fukciju koristio prvo ju morađ kreirati
+
+// 1. vrsta
+// ne prima parametre, ne vraća vrijednost
+function posao()
+{ // tijelo funckcije
     echo 'Hello';
     echo '<hr />';
 }
 
-for ($i=0;$i<10;$i++)
-{
-posao();
-}
+//poziv funkcije
+//for($i=0;$i<10;$i++){
+    posao();
+//}
 
+//phpinfo();
+
+// 2. vrsta
+// prima parametre, ne vraća vrijednost
 function logiranje($varijabla)
 {
+    if(gettype($varijabla)!=='array'){
+        echo gettype($varijabla), '<br />';
+    }
     echo '<pre>';
     print_r($varijabla);
     echo '</pre>';
     echo '<hr />';
 }
 
-$niz = ['ime'=>'Pero','podaci' => [1,2,3,4]];
+$niz = ['ime'=>'Pero', 'podaci'=>[1,2,3,2]];
 
 logiranje($niz);
 logiranje('Edunova');
 logiranje(12.9);
 
-
-function slucajnalista()
+// 3. vrsta
+// ne prima parametre, vraća vrijednost
+function slucajnaLista()
 {
-    $broj = rand(10,20);
-    $html = '<ol>';
-    while ($broj-->0)
-    {
-        $html.= '<li>' . rand (1,5) . '</li>';
+    $broj = rand(10,20); 
+    $html='<ol>'; 
+    while($broj-->0){
+        $html.='<li>' . rand(1,5) . '</li>';
     }
-    $html.= '<ol>';
+    $html.='</ol>';
     return $html;
 }
 
-echo slucajnalista();
+echo slucajnaLista();
 
 
-function primbroj($broj)
+echo '<hr />';
+
+
+// 4. vrsta
+// prima parametre, vraća vrijednost - najčešće korištena
+function primBroj($broj)
 {
-    for($i=2;$i<$broj;$i++)
-    {
+    for($i=2;$i<$broj;$i++){
         if($broj % $i===0){
             return false;
         }
     }
-return true;
+    return true;
+}
+$b=30;
+if(primBroj($b)){
+    echo $b, ' PRIM';
+}else{
+    echo $b, ' NIJE PRIM';
 }
 
-$b=30;
-if(primbroj($b)){
-    echo $b, 'PRIM';
-} else {
-    echo $b, 'NIJE PRIM';
-}
 
 echo '<hr />';
 
-function primbrojevi ($pb,$db)
+
+// ispisati sve prim brojeve između dva primljena broja
+function primBrojevi($pb,$db)
 {
-    for ($i=$pb;$i<=$db;$i++){
-        if(primbroj($i)){
+    for($i=$pb;$i<=$db;$i++){
+        if(primBroj($i)){
             echo $i, '<br />';
         }
     }
 }
 
-primbrojevi(45,998);
+primBrojevi(45,998);
 
 
+echo '<hr />';
 
-function log2($varijabla, $element= 'pre')
+// svaka funkcija može imati opcionalne parametre
+function log2($varijabla,$element='pre')
 {
     echo '<', $element, '>';
     print_r($varijabla);
@@ -82,4 +101,15 @@ function log2($varijabla, $element= 'pre')
 }
 
 log2($niz);
-log2($niz, 'code');
+log2($niz,'code');
+
+
+// ovo ne radi
+
+$godina=2021;
+
+function godina(){
+    echo $godina;
+}
+
+godina(); //Notice: Undefined variable: godina in E:\pp23\ucenjephp.hr\vlastitefunkcije.php on line 112

@@ -39,13 +39,11 @@
       <li><a  target="_blank" href="dowhilepetlja.php">Do while petlja</a></li>
   </ul>
   </li>
-</ul>
-<li>
+  <li>
     <a href="#">Funkcije</a>
     <ul class="vertical menu">
       <li><a  target="_blank" href="cestokoristenefunkcije.php">Često korištene funkcije</a></li>
-      <li><a  target="_blank" href="vlastitefunkcije.php">Vlastite funkcije</a></li>
-      <li><a  target="_blank" href="zadatak13.php">Zadatak13</a></li>
-    </ul>
+      <li><a  target="_blank" href="vlastitefunkcije.php">Vlastite funckije</a></li>
+ </ul>
   </li>
 </ul>
