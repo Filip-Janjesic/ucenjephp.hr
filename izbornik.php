@@ -44,6 +44,14 @@
     <ul class="vertical menu">
       <li><a  target="_blank" href="cestokoristenefunkcije.php">Često korištene funkcije</a></li>
       <li><a  target="_blank" href="vlastitefunkcije.php">Vlastite funckije</a></li>
- </ul>
+      <li><a  target="_blank" href="rekurzivnafunkcija.php">Rekurzivna funckija</a></li>
+    </ul>
+  </li>
+  <li>
+    <a href="#">Ugrađeni nizovi</a>
+    <ul class="vertical menu">
+      <li><a  target="_blank" href="ugradeniNizovi.php">Uvijek dostupni nizovi</a></li>
+      <li><a  target="_blank" href="postprimjer.php">POST primjer</a></li>
+    </ul>
   </li>
 </ul>
