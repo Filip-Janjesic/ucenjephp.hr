@@ -2,10 +2,13 @@
 
     function Zbrajanje($x){
 
-        if($x>0){
+        if($x<101){
             echo 'Zbrajanje'. $x . '<br />';
             Zbrajanje($x+1);
-        }
+                }
     }
 
-    Zbrajanje(100);
+    Zbrajanje(0);
+
+    echo '<hr />';
+

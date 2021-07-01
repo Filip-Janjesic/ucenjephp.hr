@@ -18,7 +18,6 @@
     <a href="#">Uvjetna grananja</a>
     <ul class="vertical menu">
       <li><a href="if.php?broj=2">If</a></li>
-      <li><a target="_blank" href="zadatak3.php?b1=2&b2=6">Zadatak 3</a></li>
       <li><a target="_blank" href="switch.php?broj=2">Switch</a></li>
       <li><a target="_blank" href="operatori.php">Operatori</a></li>
     </ul>
@@ -54,4 +53,25 @@
       <li><a  target="_blank" href="postprimjer.php">POST primjer</a></li>
     </ul>
   </li>
-</ul>
+  <li>
+    <a href="#">Zadaci</a>
+    <ul class="vertical menu">
+      <li><a  target="_blank" href="zadatak1.php">Zadatak 1</a></li>
+      <li><a  target="_blank" href="zadatak2.php">Zadatak 2</a></li>
+      <li><a  target="_blank" href="zadatak3.php">Zadatak 3</a></li>
+      <li><a  target="_blank" href="zadatak4.php">Zadatak 4</a></li>
+      <li><a  target="_blank" href="zadatak5.php">Zadatak 5</a></li>
+      <li><a  target="_blank" href="zadatak6.php">Zadatak 6</a></li>
+      <li><a  target="_blank" href="zadatak7.php">Zadatak 7</a></li>
+      <li><a  target="_blank" href="zadatak8.php">Zadatak 8</a></li>
+      <li><a  target="_blank" href="zadatak9.php">Zadatak 9</a></li>
+      <li><a  target="_blank" href="zadatak10.php">Zadatak 10</a></li>
+      <li><a  target="_blank" href="zadatak11.php">Zadatak 11</a></li>
+      <li><a  target="_blank" href="zadatak12.php">Zadatak 12</a></li>
+      <li><a  target="_blank" href="zadatak13.php">Zadatak 13</a></li>
+      <li><a  target="_blank" href="zadatak14.php">Zadatak 14</a></li>
+      <li><a  target="_blank" href="zadatak15.php">Zadatak 15</a></li>
+    </ul>
+  </li>
+  </ul>
+
