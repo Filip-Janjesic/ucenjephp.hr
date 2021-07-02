@@ -1,14 +1,14 @@
-<?php
-
-    function Zbrajanje($x){
-
-        if($x<101){
-            echo 'Zbrajanje'. $x . '<br />';
-            Zbrajanje($x+1);
-                }
-    }
-
-    Zbrajanje(0);
-
-    echo '<hr />';
-
+<?php declare(strict_types = 1);
+   $myNumber = 100;
+​
+   function recursion(int $number) : int
+   {
+      if ($number === 1)
+      {
+         return $number;
+      }
+​
+      return $number + recursion($number - 1);
+   }
+​
+   echo(recursion($myNumber));
