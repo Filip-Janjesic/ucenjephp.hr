@@ -43,7 +43,7 @@
     <ul class="vertical menu">
       <li><a  target="_blank" href="cestokoristenefunkcije.php">Često korištene funkcije</a></li>
       <li><a  target="_blank" href="vlastitefunkcije.php">Vlastite funckije</a></li>
-      <li><a  target="_blank" href="rekurzivnafunkcija.php">Rekurzivna funckija</a></li>
+      <li><a  target="_blank" href="rekurzija.php">Rekurzija</a></li>
     </ul>
   </li>
   <li>
@@ -54,6 +54,16 @@
     </ul>
   </li>
   <li>
+    <a href="#">OOP (Objektno orjentirano programiranje)</a>
+    <ul class="vertical menu">
+      <li><a  target="_blank" href="klasaobjekt.php">Klasa / Objekt i učahurivanje</a></li>
+      <li><a  target="_blank" href="nasljedivanje.php">Nasljeđivanje</a></li>
+      <li><a  target="_blank" href="magicmethods.php">Magične metode</a></li>
+      <li><a  target="_blank" href="pdo.php">PDO</a></li>
+    </ul>
+  </li>
+</ul>
+<li>
     <a href="#">Zadaci</a>
     <ul class="vertical menu">
       <li><a  target="_blank" href="zadatak1.php">Zadatak 1</a></li>
@@ -73,5 +83,4 @@
       <li><a  target="_blank" href="zadatak15.php">Zadatak 15</a></li>
     </ul>
   </li>
-  </ul>
-
+</ul>

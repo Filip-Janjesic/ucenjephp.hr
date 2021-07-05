@@ -13,7 +13,8 @@
       ?>
       <div class="grid-x grid-padding-x">
         <div class="large-12 cell" >
-          Koristite gornji izbornik
+        <p>Koristite gornji izbornik</p>
+          
         </div>
       </div>
     </div>
