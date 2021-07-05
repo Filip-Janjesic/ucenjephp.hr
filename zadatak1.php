@@ -1,11 +1,10 @@
-// Stranica ispisuje Vaše ime i prezime iz PHP-a
-
-// stranicu dodati u izbornik
-
-
-// Stranica prima GET parametar boja i u odnosu na primljenu boju 
-// (npr: blue, red, yellow,..) boja pozadine stranice je 
-// jednaka primljenoj boji
+/* 
+Stranica ispisuje Vaše ime i prezime iz PHP-a
+stranicu dodati u izbornik
+Stranica prima GET parametar boja i u odnosu na primljenu boju 
+(npr: blue, red, yellow,..) boja pozadine stranice je 
+jednaka primljenoj boji
+*/.
 
 <!doctype html>
 <html class="no-js" lang="en">
@@ -20,9 +19,7 @@
 <body>
 
 <div class="grid-container">
-<?php
-require_once 'izbornik.php';
-?>
+
 <div class="grid-x grid-padding-x">
 <div class="large-6 cell" >
         <pre>
