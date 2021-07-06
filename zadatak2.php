@@ -4,18 +4,19 @@ $boja = $_GET['boja'];
 <!doctype html>
 <html class="no-js" lang="en">
   <head>
-    <?php include_once 'head.php'; ?>
+  <?php 
+    include_once 'head.php';
+    ?>
   </head>
 <body style="background-color: <?=$boja?>">
 
     <div class="grid-container">
       <?php 
-      // proučiti include, include_once i require
       require_once 'izbornik.php';
       ?>
       <div class="grid-x grid-padding-x">
         <div class="large-12 cell" >
-         Zadatak 2
+          Zadatak 2
         </div>
       </div>
     </div>

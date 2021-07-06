@@ -1,12 +1,13 @@
-<?php
+<?php 
 
-// Kreirajte funkciju koja prima indeksni niz brojeva
-// funkcija vraća aritmetičku sredinu svih primljenih brojeva
+//kreirajte funkciju koja prima indeksni niz brojeva
+//funkcija vraća aritmetičku sredinu svih primljenih brojeva 
 
 function aritmetickaSredina($niz)
 {
-    if(gettype($niz)!=='array'){
+    if(gettype($niz)!='array'){
         return 0;
+
     }
     $suma=0;
     foreach($niz as $b){
@@ -15,4 +16,4 @@ function aritmetickaSredina($niz)
     return $suma/count($niz);
 }
 
-echo aritmetickaSredina([2,3,3,3,3]);
+echo aritmetickaSredina([2,3,4,5,6,2]);

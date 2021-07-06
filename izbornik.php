@@ -62,7 +62,6 @@
       <li><a  target="_blank" href="pdo.php">PDO</a></li>
     </ul>
   </li>
-</ul>
 <li>
     <a href="#">Zadaci</a>
     <ul class="vertical menu">

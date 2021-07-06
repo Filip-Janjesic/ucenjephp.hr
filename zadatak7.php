@@ -8,3 +8,12 @@
 
 // primjer 1: zadatak7.php?ime=1&prezime=-1
 // 0
+
+
+$zbroj=0;
+
+foreach($_GET as $vrijednost){
+    $zbroj = $zbroj +(int) $vrijednost;
+}
+
+echo $zbroj;

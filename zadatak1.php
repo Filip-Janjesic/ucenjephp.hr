@@ -3,6 +3,17 @@
 // stranicu dodati u izbornik
 
 
-// Stranica prima GET parametar boja i u odnosu na primljenu boju 
-// (npr: blue, red, yellow,..) boja pozadine stranice je 
-// jednaka primljenoj boji
+
+<div class="grid-x grid-padding-x">
+<div class="large-6 cell" >
+        <pre>
+            echo "Filip Janješić";
+        </pre>
+</div>
+<div class="large-6 cell">
+        <?php
+           echo "Filip Janješić";
+        ?>
+</div>
+</div>
+</div>
